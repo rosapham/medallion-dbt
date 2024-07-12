@@ -1,0 +1,212 @@
+[0m20:54:42.848886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a0e12e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11bab9f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11bab9280>]}
+
+
+============================== 20:54:42.859223 | 1c1618b1-5187-4930-9f35-bd5976310c2c ==============================
+[0m20:54:42.859223 [info ] [MainThread]: Running with dbt=1.8.3
+[0m20:54:42.860168 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/tienpham/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m20:54:42.889359 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/tienpham/.dbt')}
+[0m20:54:42.890230 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:55:51.334114 [debug] [MainThread]: Starter project path: /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/.venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:55:51.348670 [info ] [MainThread]: 
+Your new dbt project "medallion_dbt_spark" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:55:51.349658 [info ] [MainThread]: Setting up your profile.
+[0m20:56:26.129578 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m20:56:26.130685 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m20:56:26.131600 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:01:26.875690 [info ] [MainThread]: Profile medallion_dbt_spark written to /Users/tienpham/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:01:26.898904 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 404.15045, "process_user_time": 3.553775, "process_kernel_time": 0.825745, "process_mem_max_rss": "178876416", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:01:26.900467 [debug] [MainThread]: Command `dbt init` succeeded at 21:01:26.900117 after 404.15 seconds
+[0m21:01:26.902248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a0e12e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x123b7a100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11bb48f70>]}
+[0m21:01:26.903403 [debug] [MainThread]: Flushing usage events
+[0m21:01:33.155866 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m21:01:59.319552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116c212e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1185faeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1185fa2e0>]}
+
+
+============================== 21:01:59.325962 | b87a457e-a406-4277-a24c-88d870df24b2 ==============================
+[0m21:01:59.325962 [info ] [MainThread]: Running with dbt=1.8.3
+[0m21:01:59.326814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/tienpham/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:01:59.352241 [info ] [MainThread]: dbt version: 1.8.3
+[0m21:01:59.353008 [info ] [MainThread]: python version: 3.9.13
+[0m21:01:59.354092 [info ] [MainThread]: python path: /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/.venv/bin/python
+[0m21:01:59.355362 [info ] [MainThread]: os info: macOS-14.5-x86_64-i386-64bit
+[0m21:01:59.462085 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:01:59.462773 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:01:59.463216 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:02:00.863772 [info ] [MainThread]: Using profiles dir at /Users/tienpham/.dbt
+[0m21:02:00.864556 [info ] [MainThread]: Using profiles.yml file at /Users/tienpham/.dbt/profiles.yml
+[0m21:02:00.865070 [info ] [MainThread]: Using dbt_project.yml file at /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml
+[0m21:02:00.865542 [info ] [MainThread]: adapter type: databricks
+[0m21:02:00.865939 [info ] [MainThread]: adapter version: 1.8.3
+[0m21:02:00.866333 [info ] [MainThread]: Configuration:
+[0m21:02:00.866803 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:02:00.867254 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:02:00.867741 [info ] [MainThread]: Required dependencies:
+[0m21:02:00.868331 [debug] [MainThread]: Executing "git --help"
+[0m21:02:00.889133 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:02:00.890297 [debug] [MainThread]: STDERR: "b''"
+[0m21:02:00.890796 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:02:00.891346 [info ] [MainThread]: Connection:
+[0m21:02:00.892732 [info ] [MainThread]:   host: https://adb-3965978085481046.6.azuredatabricks.net
+[0m21:02:00.893529 [info ] [MainThread]:   http_path: sql/protocolv1/o/3965978085481046/0712-064756-9rx8foj5
+[0m21:02:00.894219 [info ] [MainThread]:   catalog: hive_metastore
+[0m21:02:00.894741 [info ] [MainThread]:   schema: saleslt
+[0m21:02:00.895686 [info ] [MainThread]: Registered adapter: databricks=1.8.3
+[0m21:02:00.918498 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=None, name=debug, idle-time=0s, acquire-count=0, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Creating connection
+[0m21:02:00.919975 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:02:00.921036 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=None, name=debug, idle-time=5.7220458984375e-06s, acquire-count=1, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Acquired connection on thread (15485, 140704449707968), using default compute resource
+[0m21:02:00.922008 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=None, name=debug, idle-time=0.0010139942169189453s, acquire-count=1, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Checking idleness
+[0m21:02:00.922726 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=None, name=debug, idle-time=0.0017578601837158203s, acquire-count=1, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Retrieving connection
+[0m21:02:00.923174 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:02:00.923602 [debug] [MainThread]: On debug: select 1 as id
+[0m21:02:00.924021 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:05:04.885140 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=45a11b3e-334a-4870-9cd6-304853ba4fc4, name=debug, idle-time=1.5020370483398438e-05s, acquire-count=1, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Connection created
+[0m21:05:04.888046 [debug] [MainThread]: Databricks adapter: Cursor(session-id=45a11b3e-334a-4870-9cd6-304853ba4fc4, command-id=Unknown) - Created cursor
+[0m21:05:09.322432 [debug] [MainThread]: SQL status: OK in 188.39999389648438 seconds
+[0m21:05:09.325009 [debug] [MainThread]: Databricks adapter: Cursor(session-id=45a11b3e-334a-4870-9cd6-304853ba4fc4, command-id=fa805d9d-e75d-476d-95a5-85e516ac3a10) - Closing cursor
+[0m21:05:09.326130 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4840315104, session-id=45a11b3e-334a-4870-9cd6-304853ba4fc4, name=debug, idle-time=5.0067901611328125e-06s, acquire-count=0, language=None, thread-identifier=(15485, 140704449707968), compute-name=) - Released connection
+[0m21:05:09.327103 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:05:09.328083 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:05:09.329199 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml> not found
+
+[0m21:05:09.332546 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 190.10312, "process_user_time": 3.382163, "process_kernel_time": 0.701507, "process_mem_max_rss": "182423552", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:05:09.334781 [debug] [MainThread]: Command `dbt debug` failed at 21:05:09.334444 after 190.11 seconds
+[0m21:05:09.335701 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:05:09.336485 [debug] [MainThread]: On debug: Close
+[0m21:05:09.337327 [debug] [MainThread]: Databricks adapter: Connection(session-id=45a11b3e-334a-4870-9cd6-304853ba4fc4) - Closing connection
+[0m21:05:09.829999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116c212e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1185b2640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1208152b0>]}
+[0m21:05:09.831345 [debug] [MainThread]: Flushing usage events
+[0m21:05:20.764999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5e92e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1191faeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1191fa280>]}
+
+
+============================== 21:05:20.771429 | 4a2d8654-1286-4bbc-8a8f-d31f03145ee4 ==============================
+[0m21:05:20.771429 [info ] [MainThread]: Running with dbt=1.8.3
+[0m21:05:20.772371 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/tienpham/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:05:20.797595 [info ] [MainThread]: dbt version: 1.8.3
+[0m21:05:20.798242 [info ] [MainThread]: python version: 3.9.13
+[0m21:05:20.798890 [info ] [MainThread]: python path: /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/.venv/bin/python
+[0m21:05:20.800136 [info ] [MainThread]: os info: macOS-14.5-x86_64-i386-64bit
+[0m21:05:20.907392 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:05:20.908109 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:05:20.908556 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:05:22.301232 [info ] [MainThread]: Using profiles dir at /Users/tienpham/.dbt
+[0m21:05:22.319478 [info ] [MainThread]: Using profiles.yml file at /Users/tienpham/.dbt/profiles.yml
+[0m21:05:22.320437 [info ] [MainThread]: Using dbt_project.yml file at /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml
+[0m21:05:22.321118 [info ] [MainThread]: adapter type: databricks
+[0m21:05:22.321514 [info ] [MainThread]: adapter version: 1.8.3
+[0m21:05:22.321975 [info ] [MainThread]: Configuration:
+[0m21:05:22.322375 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:05:22.322804 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:05:22.323220 [info ] [MainThread]: Required dependencies:
+[0m21:05:22.323765 [debug] [MainThread]: Executing "git --help"
+[0m21:05:22.341553 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:05:22.343176 [debug] [MainThread]: STDERR: "b''"
+[0m21:05:22.343708 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:05:22.344172 [info ] [MainThread]: Connection:
+[0m21:05:22.345394 [info ] [MainThread]:   host: adb-3965978085481046.6.azuredatabricks.net
+[0m21:05:22.345801 [info ] [MainThread]:   http_path: sql/protocolv1/o/3965978085481046/0712-064756-9rx8foj5
+[0m21:05:22.346171 [info ] [MainThread]:   catalog: hive_metastore
+[0m21:05:22.346535 [info ] [MainThread]:   schema: saleslt
+[0m21:05:22.347538 [info ] [MainThread]: Registered adapter: databricks=1.8.3
+[0m21:05:22.360199 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=None, name=debug, idle-time=0s, acquire-count=0, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Creating connection
+[0m21:05:22.361414 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:05:22.362023 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=None, name=debug, idle-time=6.9141387939453125e-06s, acquire-count=1, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Acquired connection on thread (16121, 140704449707968), using default compute resource
+[0m21:05:22.362595 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=None, name=debug, idle-time=0.0006351470947265625s, acquire-count=1, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Checking idleness
+[0m21:05:22.363055 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=None, name=debug, idle-time=0.0011119842529296875s, acquire-count=1, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Retrieving connection
+[0m21:05:22.363461 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:05:22.363888 [debug] [MainThread]: On debug: select 1 as id
+[0m21:05:22.364405 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:05:22.661439 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=6ebf09cf-c243-4669-a534-0af016fd1a3e, name=debug, idle-time=1.0013580322265625e-05s, acquire-count=1, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Connection created
+[0m21:05:22.662950 [debug] [MainThread]: Databricks adapter: Cursor(session-id=6ebf09cf-c243-4669-a534-0af016fd1a3e, command-id=Unknown) - Created cursor
+[0m21:05:22.945377 [debug] [MainThread]: SQL status: OK in 0.5799999833106995 seconds
+[0m21:05:22.948641 [debug] [MainThread]: Databricks adapter: Cursor(session-id=6ebf09cf-c243-4669-a534-0af016fd1a3e, command-id=b4144857-2edc-4607-871f-1cf5a84e652e) - Closing cursor
+[0m21:05:22.949778 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4852954928, session-id=6ebf09cf-c243-4669-a534-0af016fd1a3e, name=debug, idle-time=6.9141387939453125e-06s, acquire-count=0, language=None, thread-identifier=(16121, 140704449707968), compute-name=) - Released connection
+[0m21:05:22.950681 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:05:22.951641 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:05:22.952451 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml> not found
+
+[0m21:05:22.956208 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 2.277853, "process_user_time": 3.391596, "process_kernel_time": 0.637613, "process_mem_max_rss": "181538816", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:05:22.957666 [debug] [MainThread]: Command `dbt debug` failed at 21:05:22.957422 after 2.28 seconds
+[0m21:05:22.958622 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:05:22.959766 [debug] [MainThread]: On debug: Close
+[0m21:05:22.960662 [debug] [MainThread]: Databricks adapter: Connection(session-id=6ebf09cf-c243-4669-a534-0af016fd1a3e) - Closing connection
+[0m21:05:23.058392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5e92e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1191a5880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118c057f0>]}
+[0m21:05:23.060259 [debug] [MainThread]: Flushing usage events
+[0m21:08:01.404515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d0212e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11e9faf40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11e9fa280>]}
+
+
+============================== 21:08:01.409004 | cd305590-5d86-43d4-a5d6-448bb03aca14 ==============================
+[0m21:08:01.409004 [info ] [MainThread]: Running with dbt=1.8.3
+[0m21:08:01.409912 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/tienpham/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:08:01.422529 [info ] [MainThread]: dbt version: 1.8.3
+[0m21:08:01.423280 [info ] [MainThread]: python version: 3.9.13
+[0m21:08:01.423862 [info ] [MainThread]: python path: /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/.venv/bin/python
+[0m21:08:01.424316 [info ] [MainThread]: os info: macOS-14.5-x86_64-i386-64bit
+[0m21:08:01.507296 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:08:01.507994 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:08:01.508521 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:08:02.569059 [info ] [MainThread]: Using profiles dir at /Users/tienpham/.dbt
+[0m21:08:02.569703 [info ] [MainThread]: Using profiles.yml file at /Users/tienpham/.dbt/profiles.yml
+[0m21:08:02.570240 [info ] [MainThread]: Using dbt_project.yml file at /Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml
+[0m21:08:02.570883 [info ] [MainThread]: adapter type: databricks
+[0m21:08:02.571350 [info ] [MainThread]: adapter version: 1.8.3
+[0m21:08:02.571828 [info ] [MainThread]: Configuration:
+[0m21:08:02.572337 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:08:02.572810 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:08:02.573469 [info ] [MainThread]: Required dependencies:
+[0m21:08:02.574250 [debug] [MainThread]: Executing "git --help"
+[0m21:08:02.591968 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:08:02.593208 [debug] [MainThread]: STDERR: "b''"
+[0m21:08:02.593732 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:08:02.594229 [info ] [MainThread]: Connection:
+[0m21:08:02.595482 [info ] [MainThread]:   host: adb-3965978085481046.6.azuredatabricks.net
+[0m21:08:02.596037 [info ] [MainThread]:   http_path: sql/protocolv1/o/3965978085481046/0712-064756-9rx8foj5
+[0m21:08:02.596541 [info ] [MainThread]:   catalog: hive_metastore
+[0m21:08:02.597041 [info ] [MainThread]:   schema: saleslt
+[0m21:08:02.597921 [info ] [MainThread]: Registered adapter: databricks=1.8.3
+[0m21:08:02.609990 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=None, name=debug, idle-time=0s, acquire-count=0, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Creating connection
+[0m21:08:02.611197 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:08:02.611763 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=None, name=debug, idle-time=5.0067901611328125e-06s, acquire-count=1, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Acquired connection on thread (16631, 140704449707968), using default compute resource
+[0m21:08:02.612329 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=None, name=debug, idle-time=0.0006220340728759766s, acquire-count=1, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Checking idleness
+[0m21:08:02.612899 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=None, name=debug, idle-time=0.0011730194091796875s, acquire-count=1, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Retrieving connection
+[0m21:08:02.613371 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:08:02.613812 [debug] [MainThread]: On debug: select 1 as id
+[0m21:08:02.614310 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:08:02.971802 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=6447d9a2-1ba7-4961-b29c-1c09d916020c, name=debug, idle-time=1.0728836059570312e-05s, acquire-count=1, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Connection created
+[0m21:08:02.973327 [debug] [MainThread]: Databricks adapter: Cursor(session-id=6447d9a2-1ba7-4961-b29c-1c09d916020c, command-id=Unknown) - Created cursor
+[0m21:08:03.618284 [debug] [MainThread]: SQL status: OK in 1.0 seconds
+[0m21:08:03.621591 [debug] [MainThread]: Databricks adapter: Cursor(session-id=6447d9a2-1ba7-4961-b29c-1c09d916020c, command-id=ffc7a957-7bd9-45e7-a045-194b82c12db3) - Closing cursor
+[0m21:08:03.622790 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(id=4944704800, session-id=6447d9a2-1ba7-4961-b29c-1c09d916020c, name=debug, idle-time=7.867813110351562e-06s, acquire-count=0, language=None, thread-identifier=(16631, 140704449707968), compute-name=) - Released connection
+[0m21:08:03.623737 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:08:03.624621 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:08:03.625399 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Volumes/Data/Study/Data Engineer/Sources/Data Pipelines for Modern Data Engineering/medallion-dbt/dbt_project.yml> not found
+
+[0m21:08:03.629279 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 2.304785, "process_user_time": 2.966956, "process_kernel_time": 0.450407, "process_mem_max_rss": "181452800", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m21:08:03.630858 [debug] [MainThread]: Command `dbt debug` failed at 21:08:03.630567 after 2.31 seconds
+[0m21:08:03.632046 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:08:03.632910 [debug] [MainThread]: On debug: Close
+[0m21:08:03.633703 [debug] [MainThread]: Databricks adapter: Connection(session-id=6447d9a2-1ba7-4961-b29c-1c09d916020c) - Closing connection
+[0m21:08:04.429325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d0212e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x126ba3520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x126ba3f10>]}
+[0m21:08:04.431249 [debug] [MainThread]: Flushing usage events
